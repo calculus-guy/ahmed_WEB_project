@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lana Renovations</title>
+  <link rel="stylesheet" href="styles/work.css">
+</head>
+
+<body>
+<!-- THE HEADER -->
+<header>
+  <div class="logo">
+    <img src="images/Website Logo.jpeg" alt="Lana Renovations Logo">
+    <h1>Lana Renovations</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="phone">+234-703-897-5022</div>
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+  </div>
+</header>
+
+<div class="overlay" id="overlay">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<!-- THE HEADER -->
+
+  <div class="service_text">
+    <h1>Our Work</h1>
+    <h3>
+      You’re invited to browse a selection of recently completed projects below.
+    </h3>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image8.webp" alt="Kitchen" onclick="openImageModal(0)">
+      <div class="title-overlay">Kitchen</div>
+    </div>
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image14.webp" alt="Bathroom" onclick="openImageModal(1)">
+      <div class="title-overlay">Bathrooms</div>
+    </div>
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image22.webp" alt="Interior" onclick="openImageModal(2)">
+      <div class="title-overlay">Interiors</div>
+    </div>
+    <!-- Second row -->
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image24.webp" alt="Additions" onclick="openImageModal(3)">
+      <div class="title-overlay">Additions</div>
+    </div>
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image30.webp" alt="Exteriors" onclick="openImageModal(4)">
+      <div class="title-overlay">Exteriors</div>
+    </div>
+    <div class="card">
+      <img style="height: 90%;" src="images/construction_image39.webp" alt="Sunrooms" onclick="openImageModal(5)">
+      <div class="title-overlay">Sunrooms</div>
+    </div>
+  </div>
+
+  <!-- Image Carousel Modal -->
+  <div id="imageModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeImageModal()">&times;</span>
+      <button class="fullscreen-btn" onclick="toggleFullScreen()">&#x26F6;</button>
+      <div class="carousel-container">
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        <div class="modal-image-container">
+          <img onclick="toggleFullScreen()" id="modalImage" class="modal-image" src="">
+        </div>
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+      </div>
+      <div class="modal-text">
+        <h2 id="imageTitle"></h2>
+        <p id="imageDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOWER BOTTOM -->
+  <div class="dream_div">
+    <h1 class="dream_text">
+      Create your dream home.
+      <br>
+      Tell us about your project today.
+    </h1>
+    <button class="button"><a style="color: rgb(133, 132, 132);" href="contact.html">Get A Free Estimate</a></button>
+  </div>
+
+  <!-- THE FOOTER -->
+  <footer>
+    <p class="footer-text">© 2025 by Lana Renovations. Powered and secured</p>
+    <ul class="social-links">
+      <li><a href="www.pinterest.com"> <img src="images/pinterest-512.png"> </a></li>
+      <li><a href="www.facebook.com"> <img src="images/124010.png"> </a></li>
+      <li><a href="www.instagram.com"> <img src="images/1384063.png"> </a></li>
+      <li><a href="www.twitter.com"> <img src="images/free-twitter-logo-icon-2429-thumb.png"> </a></li>
+    </ul>
+  </footer>
+  <script src="scripts/header.js">
+  </script>
+  <!-- THE FOOTER -->
+  <script src="scripts/work.js"></script>
+</body>
+
+</html>

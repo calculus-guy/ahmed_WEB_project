@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lana Renovations</title>
+  <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+<!-- THE HEADER -->
+  <header>
+    <div class="logo">
+      <img src="images/Website Logo.jpeg" alt="Lana Renovations Logo">
+      <h1>Lana Renovations</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="phone">+234-703-897-5022</div>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+    </div>
+  </header>
+
+  <div class="overlay" id="overlay">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- THE HEADER -->
+
+  <!-- THE CONTENTS -->
+  <main>
+    <div class="left-side">
+      <h2>Let's Discuss<br>Your Next Project</h2>
+      <p>Fill out the form, or call us to<br>set up a free in-home consultation.</p>
+      <div class="service-areas">
+        <h3>Service Areas:</h3> <br>
+        <p>San Francisco, Santa Clara, Alameda, San Mateo</p> <br>
+        <p>500 Terry Francine Street San Francisco, CA 94158</p> <br>
+        <p>info@mysite.com</p> <br>
+        <p>+234-703-897-5022</p>
+      </div>
+    </div>
+    <div class="right-side">
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone*</label>
+            <input type="tel" id="phone" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"   rows="2" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="address" name="address"   rows="3" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+  <div class="geo">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.4834384483065!2d6.107157776755568!3d46.22073008264425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c655729f80545%3A0x868febb9b0a0f422!2sLANA-RENOVATION%20SARL!5e0!3m2!1sen!2sng!4v1729628941123!5m2!1sen!2sng"
+      width="1895" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <!-- THE CONTENTS -->
+
+  <!-- THE FOOTER -->
+    <footer>
+      <p class="footer-text">© 2025 by Lana Renovations. Powered and secured</p>
+      <ul class="social-links">
+        <li><a href="www.pinterest.com"> <img src="images/pinterest-512.png"> </a></li>
+        <li><a href="www.facebook.com"> <img src="images/124010.png"> </a></li>
+        <li><a href="www.instagram.com"> <img src="images/1384063.png"> </a></li>
+        <li><a href="www.twitter.com"> <img src="images/free-twitter-logo-icon-2429-thumb.png"> </a></li>
+      </ul>
+    </footer>
+  <script src="scripts/header.js">
+  </script>
+  <!-- THE FOOTER -->
+</body>
+
+</html>

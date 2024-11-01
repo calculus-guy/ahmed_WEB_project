@@ -195,7 +195,7 @@ nav ul li a:hover {
   }
 
   .phone {
-    color: rgb(148, 146, 146);
+    color: rgb(73, 72, 72);
     margin-top: 10px;
     font-weight: lighter;
   }
@@ -215,7 +215,7 @@ nav ul li a:hover {
 
 h3{
   line-height: 1.52rem;
-    color: rgb(148, 146, 146);
+    color: rgb(95, 93, 93);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 15.5px;
@@ -247,7 +247,7 @@ h3{
 
 .process_h3 {
   line-height: 1.52rem;
-  color: rgb(148, 146, 146);
+  color: rgb(95, 93, 93);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 15.5px;
@@ -292,7 +292,7 @@ h2{
 
 h4{
 line-height: 1.52rem;
-  color: rgb(116, 113, 113);
+  color: rgb(73, 72, 72);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 15.5px;
@@ -331,7 +331,7 @@ h2 {
 
 h4 {
   line-height: 1.52rem;
-  color: rgb(116, 113, 113);
+  color: rgb(95, 93, 93);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 15.5px;

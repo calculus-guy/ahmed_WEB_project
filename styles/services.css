@@ -195,7 +195,7 @@ nav ul li a:hover {
   }
 
   .phone {
-    color: rgb(148, 146, 146);
+    color: rgb(73, 72, 72);
     margin-top: 10px;
     font-weight: lighter;
   }
@@ -216,7 +216,7 @@ nav ul li a:hover {
 
 h3 {
   line-height: 1.52rem;
-  color: rgb(148, 146, 146);
+  color: rgb(73, 72, 72);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 15.5px;
@@ -433,6 +433,12 @@ h3 {
   left: 15px;
 }
 
+@media (max-width: 768px) {
+  .fullscreen-btn {
+    display: none;
+  }
+}
+
 .prev,
 .next {
   background-color: rgba(0, 0, 0, 0.5);
@@ -513,7 +519,7 @@ footer {
 
 .footer-text {
   font-size: 14px;
-  color: gray;
+  color: rgb(73, 72, 72);
 }
 
 .social-links {

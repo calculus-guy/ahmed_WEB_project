@@ -32,15 +32,11 @@ header {
   border-radius: 15%;
 }
 
-.logo h1 {
-  font-size: 25px;
+.logo h1 a {
+  font-size: 20px;
   font-weight: bold;
   color: #824a1e;
   text-decoration: none;
-}
-
-nav {
-  margin-left: 57%;
 }
 
 nav ul {
@@ -67,6 +63,7 @@ nav ul li a:hover {
 .phone {
   font-weight: bold;
   color: #333;
+  padding-left: 25px;
 }
 
 .menu-icon {
@@ -86,10 +83,18 @@ nav ul li a:hover {
     display: block;
   }
 
-  nav {
+  nav ul li {
     display: none;
     width: 100%;
     margin-top: 20px;
+  }
+
+  .phone {
+    color: rgb(73, 72, 72);
+    margin-top: 10px;
+    font-weight: lighter;
+    display: block;
+    padding-left: 0px;
   }
 
   nav.show {
@@ -109,6 +114,10 @@ nav ul li a:hover {
     position: absolute;
     top: 20px;
     right: 20px;
+  }
+
+  .logo h1 a {
+    font-size: 24px;
   }
 }
 
@@ -155,20 +164,24 @@ nav ul li a:hover {
   z-index: 10;
   opacity: 0;
   transition: opacity 0.3s;
+
 }
 
 .overlay.show {
   display: flex;
   opacity: 1;
+
 }
 
 .overlay ul {
   list-style-type: none;
   text-align: center;
+
 }
 
 .overlay ul li {
   margin: 20px 0;
+
 }
 
 .overlay ul li a {
@@ -176,6 +189,7 @@ nav ul li a:hover {
   color: #333;
   text-decoration: none;
   font-weight: bold;
+
 }
 
 .overlay ul li a:hover {
@@ -194,11 +208,6 @@ nav ul li a:hover {
     display: block;
   }
 
-  .phone {
-    color: rgb(73, 72, 72);
-    margin-top: 10px;
-    font-weight: lighter;
-  }
 }
 
 .service_text {
@@ -248,7 +257,7 @@ h3 {
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 65%;
   object-fit: cover;
 }
 

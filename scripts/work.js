@@ -67,15 +67,3 @@ function toggleFullScreen() {
     document.exitFullscreen();
   }
 }
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const imageContainers = document.querySelectorAll('.card');
-
-//     imageContainers.forEach(container => {
-//         const titleText = container.getAttribute('data-title');
-//         const overlay = container.querySelector('.title-overlay');
-        
-//         overlay.textContent = titleText;
-//     });
-// });
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
